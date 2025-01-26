@@ -1,0 +1,42 @@
+body {
+    background-image: url('asssets/bg.png'); /* Replace with your pattern image */
+    background-size: cover; /* Cover the entire page */
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Keep the background fixed while scrolling */
+    font-family: 'Josefin Sans', sans-serif;
+    color: #4f5d4a; /* Soft green text */
+    line-height: 1.375; /* Comfortable line height */
+    margin: 0;
+    padding: 0;
+  }
+  .content-section {
+    max-width: 500px; /* Consistent section width */
+    margin: 0 auto; /* Center section horizontally */
+    padding: 40px 20px;
+    text-align: left; /* Align content inside to the start (left) */
+  }
+  .profile-img {
+    width: 100%; /* Responsive image */
+    max-width: 400px; /* Limit the maximum width */
+    border-radius: 15px; /* Optional for rounded corners */
+  }
+  h2, h3 {
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
+    line-height: 0.9;
+    color: #306461 !important;
+  }
+  p {
+      font-family: 'Josefin Sans', sans-serif !important;
+      font-size: 1rem;
+      line-height: 1.375;
+      color: #306461;
+  }
+  .read-more {
+    color: #4f5d4a;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .read-more:hover {
+    text-decoration: underline;
+  }
