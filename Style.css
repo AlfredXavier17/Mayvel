@@ -32,11 +32,3 @@ body {
       line-height: 1.375;
       color: #306461;
   }
-  .read-more {
-    color: #4f5d4a;
-    font-weight: bold;
-    text-decoration: none;
-  }
-  .read-more:hover {
-    text-decoration: underline;
-  }
